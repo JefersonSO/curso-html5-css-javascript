@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexivel</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Você està vendo essa imagem completa? Experimente
+        ampliar a janela do seu navegador para ter uma expeiência completa &#x1F643
+    </p>
+    <picture>
+        <source media="(max-width: 600px )" srcset="imagem/01.jpg" type="image/jpg">
+        <source media="(max-width: 950px)" srcset="imagem/02.jpg" type="image/jpg">
+        <img src="imagem/03.jpg" alt="foto">
+    </picture>
+</body>
+</html>
