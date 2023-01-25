@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 450px;
+    border-collapse: collapse;
+}
+
+caption {
+    background-color: rgb(221, 221, 221);
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+thead {
+    position:relative;
+    border-collapse: collapse;
+}
+
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+   
+}
+
+tbody > tr:nth-child(odd ){
+    background-color: gray;
+}
+
+tbody > tr:nth-child(even){
+    background-color: white
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color:   rgb(85, 83, 83);
+}
+
+thead, tfoot {
+    background-color:  rgb(85, 83, 83);
+    color: white;
+}
+
+tbody { 
+    font-weight: 100;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.populacao {
+    text-align: right;
+}
+
+
