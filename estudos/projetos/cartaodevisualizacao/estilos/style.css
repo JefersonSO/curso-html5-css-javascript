@@ -18,6 +18,7 @@
             width: 98vw;
             height: 98vh;
             background-color: papayawhip;;
+            
 
         }
 
@@ -28,7 +29,7 @@
             transform: translate(-50%, -50%);
             margin: auto;
             height: auto;
-            width: 370px;
+            width: 375px;
             border-radius: 10px;
             overflow: hidden;
             background-color: white;
@@ -117,27 +118,29 @@
             margin: 10px ;
         }
 
-        div.add_to_cart > p{
+        div.add_to_cart > a{
             position: relative;
             bottom: 10px;
             text-align: center;
+            text-decoration: none;
             margin-bottom: 5px;
         }
+    
 
         .material-symbols-outlined { position: relative;
             top: 5px;
             
         }
 
-        div.add_to_cart > p > a{
+        div.add_to_cart > a > p{
             color: white;
             text-decoration: none;
         }
-
-        div.add_to_cart > p > a:hover{
-            color: yellow;
+    
+        div.add_to_cart:hover{
+            background-color: rgb(41, 87, 69);;
+            ;
         }
-
 
 
 
@@ -150,4 +153,6 @@
 
         .attribution a { color: hsl(228, 45%, 44%); }
 
+
+        
 }        

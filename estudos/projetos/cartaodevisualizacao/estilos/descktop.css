@@ -2,6 +2,12 @@
 
 @media screen and (orientation:landscape){
     
+
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
     
     body {
         width: 100vw;
@@ -9,4 +15,140 @@
         background-color: blueviolet;
     }
     
+    div.card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        height: auto;
+        width: 800px;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: white;
+
+    }
+
+    div.foto {
+        background: url(../images/image-product-desktop.jpg);
+        background-position: center center;
+        width: 400px;
+        height: 620px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+        
+    }
+
+    div.info {
+        padding: 20px;
+        color: rgb(94, 91, 91);
+        width: 400px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        float: right;
+        
+
+    }
+
+    div.info > h2 {
+        padding: 10px 30px;
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+
+    div.info > h1 {
+
+        padding: 20px 30px;
+        font-family:'Fraunces', serif;
+        color: black;
+        font-size: 2.7em;
+    }
+
+    div.info > p {
+        padding: 30px 30px;
+        font-size: 1.2em;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    
+
+    div.preco > {
+        margin: 50px;
+    
+    
+    }
+
+    div.preco > p#atual {
+        display: inline;
+        color: rgb(60, 141, 110);
+        font-family: 'Fraunces', serif;
+        font-size: 2.5em;
+        text-decoration: none;
+        padding: 30px 30px;
+    }
+
+    div.preco > p#antigo{
+        float: right;
+        position: relative;
+        padding: 10px;
+        font-size: 18px;
+        text-decoration: line-through;
+        right: 20%;
+    
+    }
+
+    div.add_to_cart {
+        background-color: rgb(60, 141, 110);
+        position: relative;
+        height: 55px;
+        color: white;
+        
+        font-weight: 900;
+        border-radius: 10px;
+        padding: 30px 30px;
+        margin: 30px 30px ;
+    }
+
+    div.add_to_cart > a{
+        position: relative;
+        bottom: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+
+    .material-symbols-outlined { position: relative;
+        top: 5px;
+        
+    }
+
+    div.add_to_cart > a > p{
+        color: white;
+        text-decoration: none;
+    }
+
+    div.add_to_cart:hover{
+        background-color: rgb(41, 87, 69);;
+        ;
+    }
+
+
+
+
+    .attribution {
+        position: fixed;
+        top: 98vh;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 11px; text-align: center; }
+
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+
 }
