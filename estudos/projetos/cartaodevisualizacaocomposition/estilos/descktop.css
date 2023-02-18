@@ -142,7 +142,7 @@
 
 
     .attribution {
-        position: fixed;
+        position: relative;
         top: 98vh;
         left: 50%;
         transform: translate(-50%);
