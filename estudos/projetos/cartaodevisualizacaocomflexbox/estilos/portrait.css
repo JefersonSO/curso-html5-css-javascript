@@ -11,14 +11,14 @@
 
     html, body {
         background-color: rgb(245, 239, 230);
-        width: 100vw;
+        
     }
 
     section.card {
         
         
-        width: 345px;
-        height:600px;
+        width: 320px;
+        height:auto;
         background-color: white;
         border-radius: 10px;
         overflow: hidden;
