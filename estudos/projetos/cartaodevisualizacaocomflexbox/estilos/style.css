@@ -11,21 +11,24 @@
         box-sizing: border-box;
     }
 
-    html, body {
+    body {
         background-color: rgb(245, 239, 230);
-        display: flex;
-        flex-direction: column;
         width: 100vw;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+
 
 
 
     section.card {
 
         margin: auto;
-        width: 550px;
-        height: 400px;
+        width: 600px;
+        height: 450px;
         background-color: white;
         border-radius: 10px;
         overflow: hidden;
