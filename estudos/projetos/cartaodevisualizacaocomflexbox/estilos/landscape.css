@@ -1,18 +1,14 @@
 @charset "UTF8";
 
-@media screen and (orientation: landscape) and (max-width:600px){
-    * {
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-    }
+@media screen and (orientation: landscape) and (max-width:768px){
+   
     
     html, body {
         background-color: rgb(241, 147, 6);
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 75vh;
+        height: 100vh;
     }
     
     
@@ -21,8 +17,7 @@
     
         margin: auto;
         width: 550px;
-        height: 400px;
-        max-height: 450px;
+        height: auto;
         background-color: white;
         border-radius: 10px;
         overflow: hidden;
@@ -30,6 +25,16 @@
         flex-direction: row;
         transition: 200ms;
     
+    }
+
+    div.img { 
+        width: 100%;
+        height: 100%;
+        background: url(../images/image-product-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
     }
     
     section.info {
