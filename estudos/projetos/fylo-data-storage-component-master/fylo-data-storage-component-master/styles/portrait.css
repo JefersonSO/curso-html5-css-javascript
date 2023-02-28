@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 768px) {
+@media screen and (orientation:portrait ) {
 
     body {
         
@@ -7,6 +7,16 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    #box {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+
     section.box{
         width: 90%;
         height: 100%;
@@ -152,7 +162,10 @@
         justify-content: baseline;
         align-items: center;
         bottom: 30px;
-        right: 2px;
+        left: 0 ;
+        
+        top: 425px;
+        
         
     }
     
@@ -177,5 +190,11 @@
         font-weight: 500;
         color: hsl(229, 57%, 11%) ;
         right: 25px
+    }
+
+    .attribution {
+        
+        bottom: 40%;
+         
     }
 }
